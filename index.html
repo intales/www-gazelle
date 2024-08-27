@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazelle</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica';
+            background-color: black;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-weight: bold;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 100px;
+            box-sizing: border-box;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            border-style: solid;
+        }
+
+        .cta-button.about-us {
+            color: white; /* Testo bianco */
+            background-color: transparent; /* Sfondo trasparente */
+            border-color: white; /* Contorno bianco */
+        }
+
+        .cta-button.get-started {
+            color: black; /* Testo nero */
+            background-color: white; /* Sfondo bianco */
+            border-color: white; /* Contorno bianco */
+        }
+
+        h1 {
+            font-size: 80px;
+            margin-bottom: 20px; /* Spazio tra i due testi */
+        }
+
+        .subtext {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 40px; /* Spazio tra il testo e il video */
+        }
+
+        iframe {
+            width: 900px; /* Regola la larghezza del video */
+            height: 500px; /* Regola l'altezza del video */
+            margin-bottom: 40px; /* Spazio tra il video e il pulsante */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Gazelle.
+        </div>
+        <a href="https://tuo-link.com" class="cta-button about-us">About us</a>
+    </header>
+
+    <h1>Flutter full-stack in seconds.</h1>
+    <div class="subtext">Start a full-stack project in seconds with Gazelle CLI and immediately focus on the key features of your application.</div>
+    
+    <iframe src="https://www.youtube.com/embed/aBucOfisLSo?si=jGYf6AuuERGHiQhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <a href="https://docs.gazelle-dart.dev/" class="cta-button get-started">Get started</a>
+</body>
+</html>
+
+
